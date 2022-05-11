@@ -10,7 +10,7 @@ namespace MyBanker_opgave
     {
         static void Main(string[] args)
         {
-            BankCard maestro = new Maestro("Mads", 5324, 523);
+            BankCard maestro = new Maestro("Mads", 5324, 86);
             BankCard mastercard = new Mastercard("Simon", 532, 532);
             BankCard visaElectron = new Visa_Electron("Jørgen", 3, 34);
             BankCard visaDankort = new Visa_Dankort("Thyge", 43, 34);
